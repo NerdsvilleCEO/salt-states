@@ -1,0 +1,5 @@
+*.log
+.kitchen
+.pytest*
+*.xml
+*.pyc
