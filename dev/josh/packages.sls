@@ -145,4 +145,3 @@ compile_emacs:
 remove_deps:
   pkg.removed:
     - pkgs: {{build_deps}}
-    - unless: su - josh.santos -c ". ~/.zshrc && command -v zsh && command -v emacs && command -v python | grep 'shims' && command -v node"
